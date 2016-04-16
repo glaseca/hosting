@@ -7,7 +7,7 @@
 |:point_up:|:point_right::point_left:|:+1:|
 
 
-Repositorio multiidioma :es::uk: de la aplicación con las siguientes carácterísticas:
+Repositorio multiidioma :es:/:uk: de la aplicación con las siguientes carácterísticas:
 
 + Permite la subida de ficheros
 + Una vez subido el fichero, se almacena en el servidor
