@@ -1,0 +1,105 @@
+body {
+	font-family: "Segoe UI", Arial, sans-serif; 
+	margin: 0 auto;
+}
+
+label{
+	display:block;
+}
+
+h3{
+	text-decoration:underline;
+	margin-left:-10px;
+}
+
+
+#contenedor
+{
+   border: 1px solid #bbb;
+   background-color: #ddd;
+   padding: 10px;
+}
+#flotanteizquierda
+{
+   float: left;
+   width: 490px; 
+   padding: 10px;
+}
+#flotantederecha
+{
+   float: left;
+   width: 300px;
+   padding: 10px 10px 25px 10px;  
+}
+
+#flotanteabajo
+{
+   clear: left;
+   background-color: #fff;
+   text-align:center;
+   padding: 10px;
+   font-size: 0.8em;
+}
+
+#flotantemuyabajo
+{
+   clear: left;
+   background-color: #fff;
+   text-align:center;
+   padding: 300px 10px 10px 10px;
+   font-size: 0.8em;
+}
+
+img.imagen
+{
+	margin-left:100px;
+	background-color:#ddd;
+	max-width:480px;
+	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
+	transform:scale(1,1);
+	-o-transform:scale(1,1);
+	-moz-transform:scale(1,1);
+	-webkit-transform:scale(1,1);
+	-ms-transform:scale(1,1);
+	transition:transform 1s;
+	-o-transition: -o-transform 1s;
+	-ms-transition: -ms-transform 1s;
+	-moz-transition: -moz-transform 1s;
+	-webkit-transition: -webkit-transform 1s;
+	z-index:1;
+}
+
+img.imagen:hover
+{
+	transform:scale(1.5,1.5);
+	-o-transform:scale(1.5,1.5);
+	-moz-transform:scale(1.5,1.5);
+	-webkit-transform:scale(1.5,1.5);
+	-ms-transform:scale(1.5,1.5);
+	z-index:10;
+	position:relative;
+}
+
+h3.qr
+{
+	text-decoration:underline;
+	margin-left:70px;
+	vertical-align:text-top;
+}
+img.qr
+{
+   margin-top:20;
+}
+
+#idioma
+{
+	float:right;
+	margin-right:250px;
+	margin-top:-15px;
+}
+
+#idioma img
+{
+	padding:2px;
+}
+
